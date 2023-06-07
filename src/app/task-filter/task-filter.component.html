@@ -1,0 +1,10 @@
+<!-- task-filter.component.html -->
+<div>
+    <label for="filterSelect">Filter tasks:</label>
+    <select id="filterSelect" (change)="onFilterSelect($event)">
+      <option value="all">All</option>
+      <option value="completed">Completed</option>
+      <option value="incomplete">Incomplete</option>
+    </select>
+  </div>
+  
